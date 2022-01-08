@@ -23,7 +23,7 @@ public class MultiVarible {
 	void printf() {
 		int age; // local variable, doesn't have default value, can reinitialize
 //		age = 100;
-//		age = 150;
+		age = 150;
 		System.out.println("Age: "+age);
 	}
 	
