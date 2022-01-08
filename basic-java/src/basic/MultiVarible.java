@@ -12,6 +12,7 @@ public class MultiVarible {
 	byte by = 8;
 	short s= 6;
 	
+	//String and array are reference type
 	
 	String name;
 	int age;
