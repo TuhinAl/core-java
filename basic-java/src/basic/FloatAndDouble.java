@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 public class FloatAndDouble {
 
 	public static void main(String[] args) {
+		//gaahaap_38Tw5WRjmyDCKcADEWs39kG2C1t3Ot2Q5Hxn
 
 		float floatValue = 0.1f;
 		double doubleValue = 0.2;
