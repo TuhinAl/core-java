@@ -10,6 +10,17 @@ public class Staff extends User{
 	private void staffDutyHour() {
 		System.out.println("Staff duty hour from Inheritance package");
 	}
+	
+	 public void postAReview() {
+		 System.out.println("posted a review :: Staff Class");
+	 }
+	 
+	 public void printUserType() {
+		 System.out.println("Staff: printUserType");
+	 }
+	 
+  
+
 
 	public long getStaffId() {
 		return staffId;

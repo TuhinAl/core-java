@@ -37,6 +37,39 @@ public class User {
 	  void yourDefaultmethod(int age) {
 		 System.out.println("your default package from INHERITANCE package.");
 	 }
+	  
+	  
+	  
+	  ////from udemy Dheru Monduluru course
+	  
+	  public void saveWebLink() {
+		  System.out.println("Weblink saved::USER");
+	  }
+	  
+	  public void saveMovie() {
+		  System.out.println("saved movie::USER");
+	  }
+	  
+	  public void saveBook() {
+		  System.out.println("USER::saved book::USER");
+	  }
+	  
+	  public void rateBookmark() {
+		  System.out.println("USER::Rated Bookmark");
+	  }
+	  
+	  public void postAReview() {
+		  System.out.println("USER::posted a review");
+	  }
+	  
+	  public void printUserType() {
+			 System.out.println("USER::printUserType");
+		 }
+		 
+	  
+	  
+	  
+	  
 
 	public String getFirstName() {
 		return firstName;
