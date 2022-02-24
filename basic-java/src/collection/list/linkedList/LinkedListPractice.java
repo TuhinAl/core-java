@@ -87,34 +87,50 @@ public class LinkedListPractice {
         listOfStudent.add(rahmot);
         listOfStudent.add(musfiq);
         listOfStudent.add(shaiful);
-        listOfStudent.add(shofiqul);
-        listOfStudent.add(sunny);
-        listOfStudent.add(sony);
-        listOfStudent.add(rahim);
-        listOfStudent.add(jayadul);
-        listOfStudent.add(anamul);
-        listOfStudent.add(tamanna);
-        listOfStudent.add(nur);
-        listOfStudent.add(naim);
-        listOfStudent.add(shahriar);
-        listOfStudent.add(tanvir);
-        listOfStudent.add(afrin);
-        listOfStudent.add(ashik);
-        listOfStudent.add(munnaf);
-        listOfStudent.add(ahnaf);
-        listOfStudent.add(rafi);
 
-        listOfStudent.add(rashid);
-        listOfStudent.add(mahathir);
-        listOfStudent.add(wahid);
-        listOfStudent.add(amdad);
-        listOfStudent.add(mahadi);
-        listOfStudent.add(marfie);
-        listOfStudent.add(rasheda);
-        listOfStudent.add(farhana);
-        listOfStudent.add(nashin);
-        listOfStudent.add(una);
-        listOfStudent.add(lamia);
-        listOfStudent.add(shaheen);
+        List<Student> collectionList = new LinkedList<>();
+
+        collectionList.add(shofiqul);
+        collectionList.add(sunny);
+        collectionList.add(sony);
+        collectionList.add(rahim);
+        collectionList.add(jayadul);
+        collectionList.add(anamul);
+        collectionList.add(tamanna);
+        collectionList.add(nur);
+        collectionList.add(naim);
+        collectionList.add(shahriar);
+        collectionList.add(tanvir);
+        collectionList.add(afrin);
+        collectionList.add(ashik);
+        collectionList.add(munnaf);
+        collectionList.add(ahnaf);
+        collectionList.add(rafi);
+
+        LinkedList<Student> list = new LinkedList<>();
+        list.add(rashid);
+        list.add(mahathir);
+        list.add(wahid);
+        list.add(amdad);
+        list.add(mahadi);
+        list.add(marfie);
+        list.add(rasheda);
+        list.add(farhana);
+        list.add(nashin);
+        list.add(una);
+        list.add(lamia);
+        list.add(shaheen);
+        System.out.println("list size: "+list.size());
+        System.out.println("collectionList  size: "+collectionList.size());
+
+        System.out.println("listOfStudent size: "+listOfStudent.size());
+        listOfStudent.remove(nur);
+        System.out.println("listOfStudent size: "+listOfStudent.size());
+        listOfStudent.addAll(list);
+        System.out.println("listOfStudent size: "+listOfStudent.size());
+
+
+
+
     }
 }
