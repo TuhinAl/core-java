@@ -7,6 +7,7 @@ public class Human extends Person{
 
     public Human(String name, String email, String address, String address1, String phone) {
         super(name, email, address);
+        System.out.println("human constructor");
         this.address = address1;
         this.phone = phone;
     }

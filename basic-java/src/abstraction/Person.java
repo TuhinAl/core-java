@@ -9,6 +9,7 @@ public class Person extends School implements BasicInfo, Hobbies{
     private String address;
 
     public Person(String name, String email, String address) {
+        System.out.println("person constructor!");
         this.name = name;
         this.email = email;
         this.address = address;
