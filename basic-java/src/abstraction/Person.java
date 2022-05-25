@@ -41,6 +41,8 @@ public class Person extends School implements BasicInfo, Hobbies{
         System.out.println("My hobby is R&D.");
     }
 
+//    public abstract personAbstract(); not working
+
     public void setName(String name) {
         this.name = name;
     }
