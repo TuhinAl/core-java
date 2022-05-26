@@ -15,6 +15,10 @@ public class Person extends School implements BasicInfo, Hobbies{
         this.address = address;
     }
 
+    public Person() {
+
+    }
+
     @Override
     public void study() {
         System.out.println("study method from Person class");

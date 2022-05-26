@@ -11,6 +11,9 @@ public class Human extends Person{
         this.address = address1;
         this.phone = phone;
     }
+    Human() {
+        super();
+    }
 
     public String getAddress() {
         return address;
